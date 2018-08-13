@@ -1,0 +1,35 @@
+{
+    "one_time": false,
+    "buttons": [
+      [{
+        "action": {
+          "type": "text",
+          "payload": {
+              "commandName": "stop"
+          },
+          "label": "Остановить"
+        },
+        "color": "negative"
+      },
+     {
+        "action": {
+          "type": "text",
+          "payload": {
+              "commandName": "next"
+          },
+          "label": "Следующий собеседник"
+        },
+        "color": "positive"
+      }],
+      [{
+        "action": {
+          "type": "text",
+          "payload": {
+              "commandName": "deanon"
+          },
+          "label": "Узнать ссылку на страницу"
+        },
+        "color": "default"
+      }]
+    ]
+} 
